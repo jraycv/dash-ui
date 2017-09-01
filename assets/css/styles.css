@@ -237,6 +237,9 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
+tr:hover {
+  background-color: #ebffcf;
+}
 th {
   font-weight: 600;
   background-color: #f0f0f0;
@@ -246,9 +249,6 @@ td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
-}
-tr:hover {
-  background-color: #ebffcf;
 }
 @media only screen and (max-width: 768px) {
   #header ul#main-area {
